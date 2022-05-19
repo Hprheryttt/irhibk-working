@@ -140,6 +140,7 @@ try:
     AUTO_DELETE_MESSAGE_DURATION = int(getConfig('AUTO_DELETE_MESSAGE_DURATION'))
     TELEGRAM_API = getConfig('TELEGRAM_API')
     TELEGRAM_HASH = getConfig('TELEGRAM_HASH')
+    BASE_URL_OF_BOT = getConfig('BASE_URL_OF_BOT')
     AUTHORIZED_CHATS = [int(i) for i in os.environ.get("AUTH_CHATS", "").split(" ")]
 except:
     LOGGER.error("One or more env variables missing! Exiting now")
