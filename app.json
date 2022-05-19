@@ -16,11 +16,11 @@
       "description": "The telegram bot token that you get from @BotFather",
       "value": ""
     },
-    "API_ID": {
+    "TELEGRAM_API": {
       "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org DO NOT put this in quotes.",
       "value": ""
     },
-    "API_HASH": {
+    "TELEGRAM_HASH": {
       "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org",
       "value": ""
     },
@@ -48,7 +48,7 @@
     },
     "DOWNLOAD_DIR": {
       "description": "The path to the local folder where the downloads should be downloaded to",
-      "value": "/usr/kamika/kikaniya/downloads",
+      "value": "/usr/turner/app/downloads",
       "required": false
     },
     "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
