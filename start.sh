@@ -1,1 +1,1 @@
-python3 -m turner
+python3 -m bot
