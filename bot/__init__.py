@@ -12,6 +12,9 @@ from time import sleep, time
 from threading import Thread, Lock
 from pyrogram import Client, enums
 
+if ospath.exists('log.txt'):
+    with open('log.txt', 'r+') as f:
+        f.truncate(0)
 
 faulthandler_enable()
 
